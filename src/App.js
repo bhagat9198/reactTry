@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+// class based component
+// import React from "react";
+import { Component } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+class App extends Component {
+
+  render() {
+    return <h1 className="App" >Hello to react!!!</h1>
+  }
 }
 
 export default App;
+
+
+// functional based component
+
+// import './App.css';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       Hello to React
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+

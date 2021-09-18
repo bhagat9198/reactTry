@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// ReactDOM.render(
+//  <div><h1>Hello</h1><br /><p> Hello2</p></div>, //JSX
+//   document.getElementById('root')
+// );
 ReactDOM.render(
   <React.StrictMode>
     <App />
